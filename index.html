@@ -4,18 +4,21 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <title>PHP FullStack</title>
+        <link rel="stylesheet" href="estilos.css">
     </head>
      <body>
+        <a href="#top"></a>
         <header>
             <nav>
                 <a href="#">Inicio</a>
                 <a href="https://www.linkedin.com/in/carlos-e-becker-142957246/">LinkedIn</a>
                 <a href="https://github.com/jmp2365">GitHub</a>
-                <a href="galeria.html">Galería</a>
+                <a href="#contacto">Contacto</a>
             </nav>
             <h1>Portafolio</h1>
         </header>
         <main>
+            <img src="Foto_Perfil.jpg" alt="Foro Perfil" width="150" height="150">
             <section>
                 <hr>
                 <h2>Me llamo Carlos Becker</h2>
@@ -23,6 +26,7 @@
             <section>
                 <hr>
                 <h2>Vivo en Olivos GBA</h2>
+                <iframe src="https://tinyurl.com/5n6mcav5" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
             <section>
                 <hr>
@@ -44,6 +48,31 @@
                 <hr>
                 <h2>Estudio en CodoACodo porque quiero profundizar en PHP y<br>dedicarme al desarrollo web como freelance o trabajando remoto</h2>
             </section>
+            <section>
+                <hr>
+                <h2 id="contacto">Contacto:</h2>
+                <form>
+                    <label for="nom">Nombre:  </label>
+                    <input type="text" id="nom" name="nom" placeholder="Ingresa tu Nombre">
+                    <br>
+                    <label for="ape">Apellido:</label>
+                    <input type="text" id="ape" name="ape" placeholder="Ingresa tu Apellido">
+                    <br>
+                    <label for="cel">Celular:</label>
+                    <input type="tel" id="cel" name="cel" placeholder="XX-XXXX-XXXX">
+                    <br>
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" placeholder="email@ejemplo.com">
+                    <br>
+                    <label for="msg">Mensaje:</label>
+                    <br>
+                    <textarea name="msg" id="msg" cols="30" rows="5" placeholder="Deja un mensaje"></textarea>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+             
+
         </main>        
         
         
